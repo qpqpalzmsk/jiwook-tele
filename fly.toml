@@ -1,4 +1,4 @@
 app = "jiwook-tele"
 
 [build]
-dockerfile = "Dockerfile"
+dockerfile = "./Dockerfile"
