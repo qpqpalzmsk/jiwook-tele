@@ -1,0 +1,12 @@
+app = "jiwook-tele-1"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+  autostop = false
+  autostart = true
+  min_machines_running = 1
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
