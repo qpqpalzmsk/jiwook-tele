@@ -7,9 +7,9 @@ import time
 from telethon import TelegramClient, events, functions
 
 # ========== [1] 텔레그램 API 설정 ==========
-API_ID = int(os.getenv("API_ID", "123456"))
-API_HASH = os.getenv("API_HASH", "abcdef1234567890abcdef1234567890")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+821012345678")
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+PHONE_NUMBER = os.getenv("PHONE_NUMBER")
 
 SESSION_NAME = "my_telethon_session"
 
