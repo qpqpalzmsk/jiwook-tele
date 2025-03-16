@@ -18,9 +18,10 @@ client = TelegramClient(
     SESSION_NAME,
     API_ID,
     API_HASH,
+    timeout=60,
     auto_reconnect=True,      # 끊기면 자동 재연결
-    connection_retries=None,  # 재시도 제한 없음
-    connect_timeout=60,    # 초
+    connection_retries=None,    # 초
+    request_retries=None,
     ping_interval=30          # 30초마다 ping → 유휴 해제
 )
 
