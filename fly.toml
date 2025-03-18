@@ -1,12 +1,4 @@
-app = "jiwook-tele-1"
+app = "group-teleg"       # Fly.io 앱 이름
 
-[[services]]
-  internal_port = 8080
-  protocol = "tcp"
-  autostop = false
-  autostart = true
-  min_machines_running = 1
-
-  [[services.ports]]
-    port = 80
-    handlers = ["http"]
+[experimental]
+  auto_stop_machines = false  # 오토스탑 기능 끄기
