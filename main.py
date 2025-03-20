@@ -21,7 +21,7 @@ client = TelegramClient(
 )
 
 # ========== [2] 홍보용 계정(마케팅 계정) ==========
-MARKETING_USER = "@my_marketing_account"  # 예시: 유저네임 or 정수 ID
+MARKETING_USER = "@Nojiwooks"  # 예시: 유저네임 or 정수 ID
 
 # ========== [3] 연결/세션 확인 함수 ==========
 async def ensure_connected():
